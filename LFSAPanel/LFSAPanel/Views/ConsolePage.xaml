@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LFSAPanel.Views.ConsolePage"
+             xmlns:local="clr-namespace:LFSAPanel.ViewModels"
+             Title="Консоль">
+
+    <ContentPage.BindingContext>
+        <local:ConsolePageViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <ScrollView >
+
+            <StackLayout>
+                <StackLayout BackgroundColor="AliceBlue">
+                    <Label Text="{Binding ServerName, StringFormat='{0}'}" FontSize="30" HorizontalOptions="Center" FontAttributes="Bold"/>
+                    <Label Text="{Binding ServerIpPort}" FontSize="20" HorizontalOptions="Center"/>
+                    <Label Text="{Binding ServerTickeId, StringFormat='ID для тикета: {0}'}" FontSize="20" HorizontalOptions="Center"/>
+                    <Label Text="{Binding ServerCpuUsage, StringFormat='CPU: {0}'}" HorizontalOptions="Center"/>
+                    <Label Text="{Binding ServerMemoryUsage, StringFormat='Память: {0}'}" HorizontalOptions="Center"/>
+                    <Label Text="{Binding ServerDiskUsage, StringFormat='Диск: {0}'}" HorizontalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                    <Button Text="Sart" />
+                    <Button Text="Stop"/>
+                    <Button Text="Restart"/>
+                    <Button Text="Kill"/>
+                </StackLayout>
+                
+                <StackLayout BackgroundColor="AntiqueWhite">
+                    <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Always">
+                        <Label MaxLines="10" FontSize="20" LineBreakMode="WordWrap" Text="">
+                        </Label>
+                    </ScrollView>
+                    <Entry />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+ 
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local ="clr-namespace:LFSAPanel.ViewModels"
+             x:Class="LFSAPanel.Views.OptinsPage"
+             x:DataType="local:OptinsPageViewModel"
+             >
+    <ContentPage.BindingContext>
+        <local:OptinsPageViewModel/>
+    </ContentPage.BindingContext>
+    
+    
+    
+    <ContentPage.Content>
+
+        <StackLayout>
+            
+            <Label FontSize="Title" Text="{Binding Count, StringFormat='Всего серверов: {0}'}"/>
+            <ListView ItemsSource="{x:Static local:OptinsPageViewModel.Identifiers}" ItemSelected="ListView_ItemSelected"/>
+            <Label Text="{Binding SelectedServer, StringFormat='Текущий сервер {0}'}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
