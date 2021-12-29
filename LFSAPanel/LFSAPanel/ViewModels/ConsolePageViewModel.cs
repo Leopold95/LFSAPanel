@@ -85,12 +85,21 @@ namespace LFSAPanel.ViewModels
                         _infoManager.GetNetwork().Data[i].Attributes.Port.ToString();
                 }
             }
+            try
+            {
+                ClientWebSocket socket = new ClientWebSocket();
+                Console.WriteLine("Connecting");
+                socket.Options.SetRequestHeader("Origin", "https://auth.worldhosts.ru");
+                socket.ConnectAsync(new Uri("wss://mc1.worldhosts.fun:9999/api/servers/f8abdf29-1fd9-448d-9d3c-ecd1f999deba/ws"), CancellationToken.None).Wait();
 
-            ClientWebSocket socket = new ClientWebSocket();
-            Console.WriteLine("Connecting");
-            socket.Options.SetRequestHeader("Origin", "https://auth.worldhosts.ru");
-            socket.ConnectAsync(new Uri("wss://mc1.worldhosts.fun:9999/api/servers/f8abdf29-1fd9-448d-9d3c-ecd1f999deba/ws"), CancellationToken.None).Wait();
-
+            }
+            catch (AggregateException e)
+            {
+                Console.WriteLine($"InnerException.Message is: {e.InnerException.Message}");
+                Console.WriteLine($"InnerExceptions.Count is: {e.InnerExceptions.Count}");
+                Console.WriteLine($"InnerExceptions is: {e.InnerExceptions}");
+            }
+            
 
             //Console.WriteLine(_infoManager.GetWebsocketInfo().Data.Socket.Replace("\\", ""));
             //string s = _infoManager.GetWebsocketInfo().Data.Socket.Replace("\\", "");
