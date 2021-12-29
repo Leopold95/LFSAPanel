@@ -16,6 +16,11 @@ namespace LFSAPanel.ViewModels
         private ServerInfoManager _infoManager;
         private WebSocketRemouter _wsRemouter;
 
+        //ClientWebSocket ws;
+        private ClientWebSocket _ws;
+        WebSocketReceiveResult res;
+        byte[] buffer = new byte[1024];
+
         public ConsolePageViewModel()
         {
             _infoManager = ServerInfoManager.GetInstance();
@@ -43,6 +48,7 @@ namespace LFSAPanel.ViewModels
         public void OnAppear()
         {
             _thread = new Thread(new ThreadStart(Do));
+            _thread.Start();
 
             ServerName = "";
             ServerTickeId = "";
@@ -51,7 +57,13 @@ namespace LFSAPanel.ViewModels
             ServerMemoryUsage = "";
             ServerDiskUsage = "";
 
-            _thread.Start();
+
+            //_ws = new ClientWebSocket();
+            //_ws.Options.SetRequestHeader("Origin", "https://auth.worldhosts.ru");
+
+            //_ws.ConnectAsync(new Uri(_infoManager.GetWebsocketInfo().Data.Socket.Replace("\\", "")), CancellationToken.None).Wait();
+            //res = _ws.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None).Result;
+            //Console.WriteLine($"Recieved: {Encoding.UTF8.GetString(buffer, 0, res.Count)}");
         }
 
         public void OnDisappear()
@@ -73,33 +85,16 @@ namespace LFSAPanel.ViewModels
                         _infoManager.GetNetwork().Data[i].Attributes.Port.ToString();
                 }
             }
-            string s = _infoManager.GetWebsocketInfo().Data.Socket;
-            s = s.Replace("\"", "");
-            Console.WriteLine(s);
-            _wsRemouter.Connect(s) ;
 
-            ClientWebSocket ws = new ClientWebSocket();
-            ws.Options.SetRequestHeader("Origin", "https://auth.worldhosts.ru");
-
-            ws.ConnectAsync(new Uri("wss://mc1.worldhosts.fun:9999/api/servers/f8abdf29-1fd9-448d-9d3c-ecd1f999deba/ws"), CancellationToken.None).Wait();
-
-            byte[] buffer = new byte[1024];
-
-            while (true)
-            {
-                //ServerMemoryUsage = _infoManager.GetAllUsedResourses().Attributes.Resources.MemoryBytes.ToString();
-                //ServerCpuUsage = _infoManager.GetAllUsedResourses().Attributes.Resources.CpuAbsolute.ToString();
-                //ServerDiskUsage = _infoManager.GetAllUsedResourses().Attributes.Resources.DiskBytes.ToString();
+            ClientWebSocket socket = new ClientWebSocket();
+            Console.WriteLine("Connecting");
+            socket.Options.SetRequestHeader("Origin", "https://auth.worldhosts.ru");
+            socket.ConnectAsync(new Uri("wss://mc1.worldhosts.fun:9999/api/servers/f8abdf29-1fd9-448d-9d3c-ecd1f999deba/ws"), CancellationToken.None).Wait();
 
 
-               var res = ws.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None).Result;
-                 
-
-                Console.WriteLine(Encoding.UTF8.GetString(buffer, 0, res.Count));
-
-                Thread.Sleep(1000);
-            }
-
+            //Console.WriteLine(_infoManager.GetWebsocketInfo().Data.Socket.Replace("\\", ""));
+            //string s = _infoManager.GetWebsocketInfo().Data.Socket.Replace("\\", "");
+            //_wsRemouter.Connect(s);
         }
     }
 }

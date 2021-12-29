@@ -5629,6 +5629,9 @@ namespace LFSAPanel.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transform_android_scaleY = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_scaleY;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transform_android_transformPivotX = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_transformPivotX;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transform_android_transformPivotY = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_transformPivotY;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transform_android_translationX = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_translationX;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transform_android_translationY = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_translationY;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transform_android_translationZ = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_translationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transform_transformPivotTarget = global::LFSAPanel.Droid.Resource.Styleable.Transform_transformPivotTarget;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transition = global::LFSAPanel.Droid.Resource.Styleable.Transition;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Transition_android_id = global::LFSAPanel.Droid.Resource.Styleable.Transition_android_id;
@@ -10913,6 +10916,9 @@ namespace LFSAPanel.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Transform_android_scaleY = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_scaleY;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Transform_android_transformPivotX = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_transformPivotX;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Transform_android_transformPivotY = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_transformPivotY;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Transform_android_translationX = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_translationX;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Transform_android_translationY = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_translationY;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Transform_android_translationZ = global::LFSAPanel.Droid.Resource.Styleable.Transform_android_translationZ;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Transform_transformPivotTarget = global::LFSAPanel.Droid.Resource.Styleable.Transform_transformPivotTarget;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Transition = global::LFSAPanel.Droid.Resource.Styleable.Transition;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Transition_android_id = global::LFSAPanel.Droid.Resource.Styleable.Transition_android_id;
@@ -14307,133 +14313,124 @@ namespace LFSAPanel.Droid
 			public const int transitionShapeAppearance = 2130904071;
 			
 			// aapt resource value: 0x7F030408
-			public const int translationX = 2130904072;
+			public const int triggerId = 2130904072;
 			
 			// aapt resource value: 0x7F030409
-			public const int translationY = 2130904073;
+			public const int triggerReceiver = 2130904073;
 			
 			// aapt resource value: 0x7F03040A
-			public const int translationZ = 2130904074;
+			public const int triggerSlack = 2130904074;
 			
 			// aapt resource value: 0x7F03040B
-			public const int triggerId = 2130904075;
-			
-			// aapt resource value: 0x7F03040C
-			public const int triggerReceiver = 2130904076;
+			public const int ttcIndex = 2130904075;
 			
 			// aapt resource value: 0x7F03040D
-			public const int triggerSlack = 2130904077;
+			public const int updatesContinuously = 2130904077;
+			
+			// aapt resource value: 0x7F03040C
+			public const int upDuration = 2130904076;
 			
 			// aapt resource value: 0x7F03040E
-			public const int ttcIndex = 2130904078;
-			
-			// aapt resource value: 0x7F030410
-			public const int updatesContinuously = 2130904080;
+			public const int uri = 2130904078;
 			
 			// aapt resource value: 0x7F03040F
-			public const int upDuration = 2130904079;
+			public const int useCompatPadding = 2130904079;
+			
+			// aapt resource value: 0x7F030410
+			public const int useMaterialThemeColors = 2130904080;
 			
 			// aapt resource value: 0x7F030411
-			public const int uri = 2130904081;
+			public const int useSimpleSummaryProvider = 2130904081;
 			
 			// aapt resource value: 0x7F030412
-			public const int useCompatPadding = 2130904082;
+			public const int values = 2130904082;
 			
 			// aapt resource value: 0x7F030413
-			public const int useMaterialThemeColors = 2130904083;
+			public const int verticalOffset = 2130904083;
 			
 			// aapt resource value: 0x7F030414
-			public const int useSimpleSummaryProvider = 2130904084;
+			public const int viewInflaterClass = 2130904084;
 			
 			// aapt resource value: 0x7F030415
-			public const int values = 2130904085;
+			public const int viewTransitionMode = 2130904085;
 			
 			// aapt resource value: 0x7F030416
-			public const int verticalOffset = 2130904086;
+			public const int viewTransitionOnCross = 2130904086;
 			
 			// aapt resource value: 0x7F030417
-			public const int viewInflaterClass = 2130904087;
+			public const int viewTransitionOnNegativeCross = 2130904087;
 			
 			// aapt resource value: 0x7F030418
-			public const int viewTransitionMode = 2130904088;
+			public const int viewTransitionOnPositiveCross = 2130904088;
 			
 			// aapt resource value: 0x7F030419
-			public const int viewTransitionOnCross = 2130904089;
+			public const int visibilityMode = 2130904089;
 			
 			// aapt resource value: 0x7F03041A
-			public const int viewTransitionOnNegativeCross = 2130904090;
+			public const int voiceIcon = 2130904090;
 			
 			// aapt resource value: 0x7F03041B
-			public const int viewTransitionOnPositiveCross = 2130904091;
+			public const int warmth = 2130904091;
 			
 			// aapt resource value: 0x7F03041C
-			public const int visibilityMode = 2130904092;
+			public const int waveDecay = 2130904092;
 			
 			// aapt resource value: 0x7F03041D
-			public const int voiceIcon = 2130904093;
+			public const int waveOffset = 2130904093;
 			
 			// aapt resource value: 0x7F03041E
-			public const int warmth = 2130904094;
+			public const int wavePeriod = 2130904094;
 			
 			// aapt resource value: 0x7F03041F
-			public const int waveDecay = 2130904095;
+			public const int wavePhase = 2130904095;
 			
 			// aapt resource value: 0x7F030420
-			public const int waveOffset = 2130904096;
+			public const int waveShape = 2130904096;
 			
 			// aapt resource value: 0x7F030421
-			public const int wavePeriod = 2130904097;
+			public const int waveVariesBy = 2130904097;
 			
 			// aapt resource value: 0x7F030422
-			public const int wavePhase = 2130904098;
+			public const int widgetLayout = 2130904098;
 			
 			// aapt resource value: 0x7F030423
-			public const int waveShape = 2130904099;
+			public const int windowActionBar = 2130904099;
 			
 			// aapt resource value: 0x7F030424
-			public const int waveVariesBy = 2130904100;
+			public const int windowActionBarOverlay = 2130904100;
 			
 			// aapt resource value: 0x7F030425
-			public const int widgetLayout = 2130904101;
+			public const int windowActionModeOverlay = 2130904101;
 			
 			// aapt resource value: 0x7F030426
-			public const int windowActionBar = 2130904102;
+			public const int windowFixedHeightMajor = 2130904102;
 			
 			// aapt resource value: 0x7F030427
-			public const int windowActionBarOverlay = 2130904103;
+			public const int windowFixedHeightMinor = 2130904103;
 			
 			// aapt resource value: 0x7F030428
-			public const int windowActionModeOverlay = 2130904104;
+			public const int windowFixedWidthMajor = 2130904104;
 			
 			// aapt resource value: 0x7F030429
-			public const int windowFixedHeightMajor = 2130904105;
+			public const int windowFixedWidthMinor = 2130904105;
 			
 			// aapt resource value: 0x7F03042A
-			public const int windowFixedHeightMinor = 2130904106;
+			public const int windowMinWidthMajor = 2130904106;
 			
 			// aapt resource value: 0x7F03042B
-			public const int windowFixedWidthMajor = 2130904107;
+			public const int windowMinWidthMinor = 2130904107;
 			
 			// aapt resource value: 0x7F03042C
-			public const int windowFixedWidthMinor = 2130904108;
+			public const int windowNoTitle = 2130904108;
 			
 			// aapt resource value: 0x7F03042D
-			public const int windowMinWidthMajor = 2130904109;
+			public const int yearSelectedStyle = 2130904109;
 			
 			// aapt resource value: 0x7F03042E
-			public const int windowMinWidthMinor = 2130904110;
+			public const int yearStyle = 2130904110;
 			
 			// aapt resource value: 0x7F03042F
-			public const int windowNoTitle = 2130904111;
-			
-			// aapt resource value: 0x7F030430
-			public const int yearSelectedStyle = 2130904112;
-			
-			// aapt resource value: 0x7F030431
-			public const int yearStyle = 2130904113;
-			
-			// aapt resource value: 0x7F030432
-			public const int yearTodayStyle = 2130904114;
+			public const int yearTodayStyle = 2130904111;
 			
 			static Attribute()
 			{
@@ -22186,7 +22183,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009A,0x7F0300A3,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E2,0x7F0300E3,0x7F0300E9,0x7F030102,0x7F030131,0x7F030136,0x7F030137,0x7F03013C,0x7F03013E,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030155,0x7F0301C2,0x7F0301D2,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302F4,0x7F0302F6,0x7F03030E,0x7F030310,0x7F030311,0x7F030312,0x7F030329,0x7F03032C,0x7F03032E,0x7F03032F,0x7F03034F,0x7F030350,0x7F03037E,0x7F0303AD,0x7F0303AF,0x7F0303B0,0x7F0303B1,0x7F0303B3,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303BE,0x7F0303BF,0x7F0303F0,0x7F0303F1,0x7F0303F2,0x7F0303F3,0x7F030417,0x7F030426,0x7F030427,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C,0x7F03042D,0x7F03042E,0x7F03042F }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009A,0x7F0300A3,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E2,0x7F0300E3,0x7F0300E9,0x7F030102,0x7F030131,0x7F030136,0x7F030137,0x7F03013C,0x7F03013E,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030155,0x7F0301C2,0x7F0301D2,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302F4,0x7F0302F6,0x7F03030E,0x7F030310,0x7F030311,0x7F030312,0x7F030329,0x7F03032C,0x7F03032E,0x7F03032F,0x7F03034F,0x7F030350,0x7F03037E,0x7F0303AD,0x7F0303AF,0x7F0303B0,0x7F0303B1,0x7F0303B3,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303BE,0x7F0303BF,0x7F0303F0,0x7F0303F1,0x7F0303F2,0x7F0303F3,0x7F030414,0x7F030423,0x7F030424,0x7F030425,0x7F030426,0x7F030427,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -22304,17 +22301,17 @@ namespace LFSAPanel.Droid
 					2130904049,
 					2130904050,
 					2130904051,
-					2130904087,
+					2130904084,
+					2130904099,
+					2130904100,
+					2130904101,
 					2130904102,
 					2130904103,
 					2130904104,
 					2130904105,
 					2130904106,
 					2130904107,
-					2130904108,
-					2130904109,
-					2130904110,
-					2130904111};
+					2130904108};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -22708,7 +22705,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 1
 			public const int BackgroundStyle_selectableItemBackground = 1;
 			
-			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C4,0x7F030283,0x7F0302C4,0x7F030416 }
+			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C4,0x7F030283,0x7F0302C4,0x7F030413 }
 			public static int[] Badge = new int[] {
 					2130903112,
 					2130903122,
@@ -22716,7 +22713,7 @@ namespace LFSAPanel.Droid
 					2130903492,
 					2130903683,
 					2130903748,
-					2130904086};
+					2130904083};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -23421,7 +23418,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F03041C }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -23545,7 +23542,7 @@ namespace LFSAPanel.Droid
 					2130904066,
 					2130904068,
 					2130904070,
-					2130904092};
+					2130904089};
 			
 			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300EB,0x7F0300EE,0x7F0300EF,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F030206,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F030249,0x7F03024C }
 			public static int[] ConstraintLayout_Layout = new int[] {
@@ -24036,7 +24033,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 3
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030214,0x7F030218,0x7F030219,0x7F03021A,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03022B,0x7F030230,0x7F030231,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F03041C }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030214,0x7F030218,0x7F030219,0x7F03021A,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03022B,0x7F030230,0x7F030231,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
 			public static int[] ConstraintOverride = new int[] {
 					16842948,
 					16842960,
@@ -24144,7 +24141,7 @@ namespace LFSAPanel.Droid
 					2130904066,
 					2130904068,
 					2130904070,
-					2130904092};
+					2130904089};
 			
 			// aapt resource value: 13
 			public const int ConstraintOverride_android_alpha = 13;
@@ -25505,9 +25502,9 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F030414 }
+			// aapt resource value: { 0x7F030411 }
 			public static int[] EditTextPreference = new int[] {
-					2130904084};
+					2130904081};
 			
 			// aapt resource value: 0
 			public const int EditTextPreference_useSimpleSummaryProvider = 0;
@@ -25550,7 +25547,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030156,0x7F030164,0x7F030182,0x7F030183,0x7F0301BB,0x7F0301C5,0x7F030285,0x7F030305,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F030412 }
+			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030156,0x7F030164,0x7F030182,0x7F030183,0x7F0301BB,0x7F0301C5,0x7F030285,0x7F030305,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F03040F }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903120,
@@ -25568,7 +25565,7 @@ namespace LFSAPanel.Droid
 					2130903859,
 					2130903862,
 					2130903870,
-					2130904082};
+					2130904079};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -25649,7 +25646,7 @@ namespace LFSAPanel.Droid
 					2130903461,
 					2130903462};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03019E,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F03040E }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03019E,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F03040B }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -25660,7 +25657,7 @@ namespace LFSAPanel.Droid
 					2130903463,
 					2130903464,
 					2130903465,
-					2130904078};
+					2130904075};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -25816,7 +25813,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030101,0x7F030115,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0302D0,0x7F03031F,0x7F030320,0x7F030321,0x7F03041E }
+			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030101,0x7F030115,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0302D0,0x7F03031F,0x7F030320,0x7F030321,0x7F03041B }
 			public static int[] ImageFilterView = new int[] {
 					2130903092,
 					2130903140,
@@ -25831,7 +25828,7 @@ namespace LFSAPanel.Droid
 					2130903839,
 					2130903840,
 					2130903841,
-					2130904094};
+					2130904091};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -25987,7 +25984,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 18
 			public const int KeyAttribute_transitionPathRotate = 18;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F030420,0x7F030421,0x7F030422,0x7F030423,0x7F030424 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420,0x7F030421 }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -26005,11 +26002,11 @@ namespace LFSAPanel.Droid
 					2130903731,
 					2130904068,
 					2130904070,
+					2130904093,
+					2130904094,
+					2130904095,
 					2130904096,
-					2130904097,
-					2130904098,
-					2130904099,
-					2130904100};
+					2130904097};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -26137,7 +26134,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041F,0x7F030420,0x7F030421,0x7F030422,0x7F030423 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041C,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420 }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -26155,11 +26152,11 @@ namespace LFSAPanel.Droid
 					2130903731,
 					2130904068,
 					2130904070,
+					2130904092,
+					2130904093,
+					2130904094,
 					2130904095,
-					2130904096,
-					2130904097,
-					2130904098,
-					2130904099};
+					2130904096};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -26224,7 +26221,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 20
 			public const int KeyTimeCycle_waveShape = 20;
 			
-			// aapt resource value: { 0x7F0301AD,0x7F0302B3,0x7F0302B4,0x7F0302B5,0x7F0302C6,0x7F0302C8,0x7F0302C9,0x7F03040B,0x7F03040C,0x7F03040D,0x7F030419,0x7F03041A,0x7F03041B }
+			// aapt resource value: { 0x7F0301AD,0x7F0302B3,0x7F0302B4,0x7F0302B5,0x7F0302C6,0x7F0302C8,0x7F0302C9,0x7F030408,0x7F030409,0x7F03040A,0x7F030416,0x7F030417,0x7F030418 }
 			public static int[] KeyTrigger = new int[] {
 					2130903469,
 					2130903731,
@@ -26233,12 +26230,12 @@ namespace LFSAPanel.Droid
 					2130903750,
 					2130903752,
 					2130903753,
-					2130904075,
-					2130904076,
-					2130904077,
-					2130904089,
-					2130904090,
-					2130904091};
+					2130904072,
+					2130904073,
+					2130904074,
+					2130904086,
+					2130904087,
+					2130904088};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -26662,13 +26659,13 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167,0x7F030414 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167,0x7F030411 }
 			public static int[] ListPreference = new int[] {
 					16842930,
 					16843256,
 					2130903398,
 					2130903399,
-					2130904084};
+					2130904081};
 			
 			// aapt resource value: 0
 			public const int ListPreference_android_entries = 0;
@@ -26836,7 +26833,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F0302C2,0x7F03030F,0x7F030430,0x7F030431,0x7F030432 }
+			// aapt resource value: { 0x101020D,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F0302C2,0x7F03030F,0x7F03042D,0x7F03042E,0x7F03042F }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
 					2130903332,
@@ -26845,9 +26842,9 @@ namespace LFSAPanel.Droid
 					2130903335,
 					2130903746,
 					2130903823,
-					2130904112,
-					2130904113,
-					2130904114};
+					2130904109,
+					2130904110,
+					2130904111};
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E5,0x7F0301EE,0x7F0301EF,0x7F0301F6,0x7F0301F7,0x7F0301FB }
 			public static int[] MaterialCalendarItem = new int[] {
@@ -26973,10 +26970,10 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 11
 			public const int MaterialCardView_strokeWidth = 11;
 			
-			// aapt resource value: { 0x7F030084,0x7F030413 }
+			// aapt resource value: { 0x7F030084,0x7F030410 }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903172,
-					2130904083};
+					2130904080};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -26984,10 +26981,10 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030084,0x7F030413 }
+			// aapt resource value: { 0x7F030084,0x7F030410 }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903172,
-					2130904083};
+					2130904080};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -27572,12 +27569,12 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 3
 			public const int NavArgument_nullable = 3;
 			
-			// aapt resource value: { 0x10104EE,0x7F030003,0x7F03028D,0x7F030411 }
+			// aapt resource value: { 0x10104EE,0x7F030003,0x7F03028D,0x7F03040E }
 			public static int[] NavDeepLink = new int[] {
 					16844014,
 					2130903043,
 					2130903693,
-					2130904081};
+					2130904078};
 			
 			// aapt resource value: 1
 			public const int NavDeepLink_action = 1;
@@ -27888,7 +27885,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012B,0x7F03012E,0x7F030159,0x7F03015B,0x7F0301AC,0x7F0301C6,0x7F0301CB,0x7F0301E3,0x7F0301FC,0x7F030205,0x7F0302CD,0x7F0302E8,0x7F03032D,0x7F030339,0x7F030346,0x7F030376,0x7F0303E2,0x7F030425 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012B,0x7F03012E,0x7F030159,0x7F03015B,0x7F0301AC,0x7F0301C6,0x7F0301CB,0x7F0301E3,0x7F0301FC,0x7F030205,0x7F0302CD,0x7F0302E8,0x7F03032D,0x7F030339,0x7F030346,0x7F030376,0x7F0303E2,0x7F030422 }
 			public static int[] Preference = new int[] {
 					16842754,
 					16842765,
@@ -27925,7 +27922,7 @@ namespace LFSAPanel.Droid
 					2130903878,
 					2130903926,
 					2130904034,
-					2130904101};
+					2130904098};
 			
 			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
 			public static int[] PreferenceFragment = new int[] {
@@ -28174,13 +28171,13 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 35
 			public const int Preference_widgetLayout = 35;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F030230,0x7F0302B1,0x7F03041C }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F030230,0x7F0302B1,0x7F030419 }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
 					2130903600,
 					2130903729,
-					2130904092};
+					2130904089};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -28204,10 +28201,10 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 0
 			public const int RadialViewGroup_materialCircleRadius = 0;
 			
-			// aapt resource value: { 0x7F030291,0x7F030415 }
+			// aapt resource value: { 0x7F030291,0x7F030412 }
 			public static int[] RangeSlider = new int[] {
 					2130903697,
-					2130904085};
+					2130904082};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_minSeparation = 0;
@@ -28298,7 +28295,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C5,0x7F0300EA,0x7F030129,0x7F0301B0,0x7F0301CF,0x7F030205,0x7F03030B,0x7F03030C,0x7F030327,0x7F030328,0x7F03036C,0x7F030375,0x7F03041D }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C5,0x7F0300EA,0x7F030129,0x7F0301B0,0x7F0301CF,0x7F030205,0x7F03030B,0x7F03030C,0x7F030327,0x7F030328,0x7F03036C,0x7F030375,0x7F03041A }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -28316,7 +28313,7 @@ namespace LFSAPanel.Droid
 					2130903848,
 					2130903916,
 					2130903925,
-					2130904093};
+					2130904090};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -28369,7 +28366,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F03028E,0x7F03032A,0x7F030340,0x7F030410 }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F03028E,0x7F03032A,0x7F030340,0x7F03040D }
 			public static int[] SeekBarPreference = new int[] {
 					16842994,
 					16843062,
@@ -28377,7 +28374,7 @@ namespace LFSAPanel.Droid
 					2130903694,
 					2130903850,
 					2130903872,
-					2130904080};
+					2130904077};
 			
 			// aapt resource value: 2
 			public const int SeekBarPreference_adjustable = 2;
@@ -28772,9 +28769,9 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030413 }
+			// aapt resource value: { 0x7F030410 }
 			public static int[] SwitchMaterial = new int[] {
-					2130904083};
+					2130904080};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -29552,38 +29549,38 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010320,0x1010321,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x1010440,0x7F030402,0x7F030408,0x7F030409,0x7F03040A }
+			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030402 }
 			public static int[] Transform = new int[] {
 					16843552,
 					16843553,
+					16843554,
+					16843555,
 					16843556,
 					16843557,
 					16843558,
 					16843559,
 					16843560,
+					16843770,
 					16843840,
-					2130904066,
-					2130904072,
-					2130904073,
-					2130904074};
+					2130904066};
 			
-			// aapt resource value: 7
-			public const int Transform_android_elevation = 7;
-			
-			// aapt resource value: 4
-			public const int Transform_android_rotation = 4;
-			
-			// aapt resource value: 5
-			public const int Transform_android_rotationX = 5;
+			// aapt resource value: 10
+			public const int Transform_android_elevation = 10;
 			
 			// aapt resource value: 6
-			public const int Transform_android_rotationY = 6;
+			public const int Transform_android_rotation = 6;
 			
-			// aapt resource value: 2
-			public const int Transform_android_scaleX = 2;
+			// aapt resource value: 7
+			public const int Transform_android_rotationX = 7;
 			
-			// aapt resource value: 3
-			public const int Transform_android_scaleY = 3;
+			// aapt resource value: 8
+			public const int Transform_android_rotationY = 8;
+			
+			// aapt resource value: 4
+			public const int Transform_android_scaleX = 4;
+			
+			// aapt resource value: 5
+			public const int Transform_android_scaleY = 5;
 			
 			// aapt resource value: 0
 			public const int Transform_android_transformPivotX = 0;
@@ -29591,17 +29588,17 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 1
 			public const int Transform_android_transformPivotY = 1;
 			
-			// aapt resource value: 8
-			public const int Transform_transformPivotTarget = 8;
+			// aapt resource value: 2
+			public const int Transform_android_translationX = 2;
+			
+			// aapt resource value: 3
+			public const int Transform_android_translationY = 3;
 			
 			// aapt resource value: 9
-			public const int Transform_translationX = 9;
-			
-			// aapt resource value: 10
-			public const int Transform_translationY = 10;
+			public const int Transform_android_translationZ = 9;
 			
 			// aapt resource value: 11
-			public const int Transform_translationZ = 11;
+			public const int Transform_transformPivotTarget = 11;
 			
 			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EC,0x7F0300ED,0x7F030151,0x7F030207,0x7F0302AE,0x7F0302E1,0x7F030359,0x7F030403,0x7F030405 }
 			public static int[] Transition = new int[] {
@@ -29718,7 +29715,7 @@ namespace LFSAPanel.Droid
 			// aapt resource value: 1
 			public const int ViewStubCompat_android_layout = 1;
 			
-			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300BF,0x7F030151,0x7F0301D0,0x7F0301D1,0x7F0302AE,0x7F0302B3,0x7F0302CB,0x7F0302E1,0x7F030332,0x7F030403,0x7F03040F,0x7F030418 }
+			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300BF,0x7F030151,0x7F0301D0,0x7F0301D1,0x7F0302AE,0x7F0302B3,0x7F0302CB,0x7F0302E1,0x7F030332,0x7F030403,0x7F03040C,0x7F030415 }
 			public static int[] ViewTransition = new int[] {
 					16842960,
 					2130903041,
@@ -29733,8 +29730,8 @@ namespace LFSAPanel.Droid
 					2130903777,
 					2130903858,
 					2130904067,
-					2130904079,
-					2130904088};
+					2130904076,
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int ViewTransition_android_id = 0;

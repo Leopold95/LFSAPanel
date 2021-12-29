@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace LFSAPanel.Core.Engine
 {
@@ -11,19 +12,22 @@ namespace LFSAPanel.Core.Engine
     {
         private ClientWebSocket _ws;
         public bool IsConnected { get; private set; }
-
+        
 
         WebSocketReceiveResult res;
+        byte[] buffer = new byte[1024];
 
         public WebSocketRemouter()
         {
-            _ws = new ClientWebSocket();
-            _ws.Options.SetRequestHeader("Origin", "https://auth.worldhosts.ru");
+
         }
 
 
-        public void Connect(string wsUrl)
+        public async Task Connect(string wsUrl)
         {
+            _ws = new ClientWebSocket();
+            _ws.Options.SetRequestHeader("Origin", "https://auth.worldhosts.ru");
+
             try
             {
                 _ws.ConnectAsync(new Uri("wss://mc1.worldhosts.fun:9999/api/servers/f8abdf29-1fd9-448d-9d3c-ecd1f999deba/ws"), CancellationToken.None).Wait();
@@ -38,10 +42,17 @@ namespace LFSAPanel.Core.Engine
 
         
 
-        public string ReceiveMessage()
+        public async Task<string> ReceiveMessage()
         {
-            byte[] buffer = new byte[1024];
-            res = _ws.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None).Result;
+            try
+            {
+                res = _ws.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None).Result;
+            }
+            catch (Exception exp)
+            {
+                Console.WriteLine($"The error in {nameof(ReceiveMessage)} at {nameof(WebSocketRemouter)}. Error is: {exp.Message}");
+            }
+
             return Encoding.UTF8.GetString(buffer, 0, res.Count);
         }
 
